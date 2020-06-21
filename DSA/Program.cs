@@ -28,7 +28,7 @@ namespace DSA
                 {
                     return true;
                 }
-                myhash1.Add(sum - arraynum[i]);
+                myhash1.Add(sum - arraynum[i]);         //Find and add the complement pair of a given number that is equal to the given sum.
             }
             return false;
         }
